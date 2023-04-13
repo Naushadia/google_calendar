@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/stylesheets/events.css">
+  <title>Create an Event</title>
+</head>
+
+<body>
+  <h1>Create an Event</h1>
+  <form action="/events/new/" method="POST">
+    <label for="summary">Event Name:</label>
+    <input type="text" id="summary" name="summary" required><br>
+    <label for="date">Event Date:</label>
+    <input type="date" id="date" name="date" required><br>
+    <label for="starttime">Start Time:</label>
+    <input type="time" id="starttime" name="starttime" required><br>
+    <label for="endtime">End Time:</label>
+    <input type="time" id="endtime" name="endtime" required><br>
+    <label for="location">Event Location:</label>
+    <input type="text" id="location" name="location" required><br>
+    <label for="attendees">Email:</label>
+    <input type="email" id="attendees" name="email" multiple>
+    <label for="description">Event Description:</label>
+    <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Create Event">
+  </form>
+</body>
+
+</html>

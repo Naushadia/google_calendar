@@ -1,0 +1,7 @@
+node_modules
+bin
+config
+token.json
+credentials.json
+package-lock.json
+.env

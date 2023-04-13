@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #0099ff;
+    color: white;
+}
