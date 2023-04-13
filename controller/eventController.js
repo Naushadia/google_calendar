@@ -1,7 +1,6 @@
 const fs = require("fs").promises;
 var moment = require("moment");
 const path = require("path");
-const process = require("process");
 const { authenticate } = require("@google-cloud/local-auth");
 const { google } = require("googleapis");
 const { validationResult } = require("express-validator");
